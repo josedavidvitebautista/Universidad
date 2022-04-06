@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../CSS's/Menu.css" rel="stylesheet" type="text/css">
+    <link href="../CSS's/Button's.css" rel="stylesheet" type="text/css">
+    <link href="../CSS's/Pictures.css" rel="stylesheet" type="text/css">
+
+    <link href="../CSS's/Foot.css" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+</head>
+<body background="../Pictures/bg2.png">
+<!--Menu Lateral-->
+<div id="sideNavigation" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <center><img src="../Pictures/Logo.png"></center>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#">Hola :D</a>
+    <a href="../index.html">Nuestros Productos</a>
+    <a href="Novelties.html">Novedades</a>
+    <a href="../HTML's/Quotes.html">Mantenimiento</a>
+    <a href="#">Acerca De Nosotros</a>
+</div>
+
+<!--Opciones-->
+<div class="container">
+    <br>
+    <nav class="topnav">
+        <a href="#" onclick="openNav()">
+            <svg width="30" height="30" id="icoOpen">
+                <path d="M0,5 30,5" stroke="#ffffff" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#ffffff" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#ffffff" stroke-width="5"/>
+            </svg>
+        </a>
+    </nav>
+    <div class="row g-2">
+        <div class="col-4">
+            <div class="p-3"><img  class="img-30x60" src="../Pictures/Logo.png"></div>
+        </div>
+        <div class="col-6">
+        </div>
+        <div class="col-1"></div>
+        <div class="col-1">
+            <div class="p-3 text-center"><br><a href="HTML's/Login.html"><img class="rounded mx-auto d-block img-40x40" src="../Pictures/User.png"/></a></div>
+        </div>
+        <br><br><br><br>
+        <div class="col-12">
+            <div class="text-center text-light"><h3>Carrito</h3></div>
+        </div>
+    </div>
+    <br>
+    <div class="col-12">
+        <div class="p-3 bg-light">
+            <div class="row g-2">
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3 border text-center bg-light"><h3>*Lista De Productos*</h3></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3 border text-center bg-light"><h3>Total</h3><br><h5>*$00.00</h5></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3"></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3 border text-center bg-light"><h3>Metodo De Pago</h3><br><button class="boton1" onclick="Tarjeta()">Agregar Tarjeta</button></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3"></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3 text-center"><br><button class="boton1" onclick="Comprar()">Comprar</button></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3"></div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-3 border text-center bg-light"><h3>Nos Encontramos En...</h3><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.305050893169!2d-98.90337728576723!3d19.65698683856234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1eb740b91900d%3A0x50cd4c1925e22805!2sCOMPUTADORAS%20Y%20LAPTOPS%20PCN!5e0!3m2!1ses-419!2smx!4v1636709093252!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+<!--Pie De Pagina-->
+<footer class="footer_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="single_ftr">
+                    <h4 class="sf_title">Contactanos</h4>
+                    <ul>
+                        <li>Constitución 38-A, SAN BARTOLO, 55880 San Bartolo, Méx.</li>
+                        <li>55 3207 4388</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single_ftr">
+                    <h4 class="sf_title">Informacion</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Areas De Servicio</a></li>
+                        <li><a href="#">Politica De Privacidad</a></li>
+                        <li><a href="#">Terminos Y Condiciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single_ftr">
+                    <h4 class="sf_title">Servicios</h4>
+                    <ul>
+                        <li><a href="#">Nuestros Productos</a></li>
+                        <li><a href="#">Mapa Del Sitio</a></li>
+                        <li><a href="#">Mantenimiento</a></li>
+                        <li><a href="#">Mi Cuenta</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="single_ftr">
+                    <h4 class="sf_title">Partners</h4>
+                    <div class="newsletter_form">
+                        <a href="http://uptecamac.edomex.gob.mx"><img class="img-foot" src="../Pictures/UPT.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ftr_btm_area">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 text-center">
+                    <p class="copyright_text text-center">© 2021 Todos Los Derechos Reservados A Equipo De Igna</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../Js's/main.js"></script>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>

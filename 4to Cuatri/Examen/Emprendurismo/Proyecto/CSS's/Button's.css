@@ -1,0 +1,19 @@
+.boton1{
+    display:inline-block;
+    width:50%;
+    background:#673AB7;
+    padding:10px;
+    border: 3px solid white;
+    border-radius:50px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 15px;
+}
+.boton1:hover{
+    background:white;
+    color: #673AB7;
+    border: 3px solid #673AB7;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iniciar Sesión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../CSS's/Imput's.css" rel="stylesheet" type="text/css">
+    <link href="../CSS's/Button's.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    .img-50x100 {
+        width:100px !important;
+        height:80px !important;
+    }
+</style>
+<body background="../Pictures/bg2.png">
+<br><br><br><br><br>
+<div class="container">
+    <div class="row g-2">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="border bg-light"><br><br><center><img class="img-50x100" src="../Pictures/Logo.png"></center>
+                <br>
+                <center><h3>Iniciar Sesión</h3></center>
+                <br>
+                <div class="page">
+                    <label class="field field_v2">
+                        <input id="I1" class="field__input" placeholder="...">
+                        <span class="field__label-wrap">
+                             <span class="field__label">Correo</span>
+                        </span>
+                    </label>
+                    <label class="field field_v2">
+                        <input id="I2" class="field__input" placeholder="...">
+                        <span class="field__label-wrap">
+                              <span class="field__label">Contraseña</span>
+                        </span>
+                    </label>
+                </div>
+                <br>
+                <br>
+                <center><button class="boton1" onclick="Verificar()">Iniciar Sesión</button></center>
+                <br>
+                <br>
+                <center><label>¿No Tienes Cuenta? Crea Una <a href="New%20Account.html">Aqui</a></label></center>
+                <br>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+<br>
+<br>
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../Js's/main.js"></script>
+</html>
